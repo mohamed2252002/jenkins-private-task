@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello, this is the Build Stage'
+                sh './myscript.sh'
             }
         }
         stage('Test') {
             steps {
-                echo 'Hello, this is the Test Stage'
+                echo 'Testing phase...'
             }
         }
     }
