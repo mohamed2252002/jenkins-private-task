@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "----------------------------------------"
-echo "Hello! This text is coming from a Script File"
+echo "Hello! This is the DEVELOPMENT Branch (DEV)"
 echo "Current Date is:"
 date
 echo "----------------------------------------"
